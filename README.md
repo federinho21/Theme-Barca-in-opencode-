@@ -32,7 +32,7 @@ Creado por **FK GUTI**.
 ## Requisitos
 
 - **OpenCode 2.1.4 o superior** (la API de plugins TUI cambió en la V2).
-- **Windows Terminal 1.25+** para ver la pelota como imagen. En terminales sin SIXEL el plugin no dibuja sustituto: es preferible no mostrar nada antes que un bloque de píxeles.
+- **Windows Terminal 1.25+** con soporte SIXEL para ver la pelota como imagen. En terminales sin SIXEL la imagen puede no mostrarse o verse degradada; el resto del tema funciona igual.
 - **Node 24+** solo para ejecutar las pruebas.
 
 ## Instalación
