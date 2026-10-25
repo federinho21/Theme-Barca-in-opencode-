@@ -11,9 +11,10 @@ Los errores y los diffs conservan colores semánticos distintos.
   antialias y mostrada como imagen SIXEL, no bloques de terminal. Es un diseño
   personalizado, no un balón oficial. Sustituye el indicador mientras trabaja:
   movimiento suave a 10 fps en 6 columnas por 2 filas (la pelota ocupa unos
-  24 px). Mantiene `esc interrumpir`. Requiere SIXEL, como Windows Terminal 1.25;
-  no se degrada a pixel-art. Al terminar se restaura el pie y se detiene el
-  temporizador. `make-football.ps1` genera los 32 sprites en `assets/football`.
+  24 px). Mantiene `esc interrumpir`. Requiere SIXEL (Windows Terminal 1.25+);
+  en terminales sin soporte la imagen puede no mostrarse correctamente. Al
+  terminar se restaura el pie y se detiene el temporizador.
+  `make-football.ps1` genera los 32 sprites en `assets/football`.
 - Marca de agua discreta en el pie: `FK GUTI CREATED`.
 - `/barca-motion`: pausa/reanuda la pelota, sin ocultar la firma.
 - La decoración no accede a red ni instala dependencias; en reposo, al
