@@ -1,0 +1,32 @@
+{
+  "$schema": "https://opencode.ai/v2/cli.json",
+  "theme": {
+    "name": "barca",
+    "mode": "dark"
+  },
+  "diffs": {
+    "wrap": "word"
+  },
+  "session": {
+    "sidebar": "auto",
+    "scrollbar": false,
+    "thinking": "hide"
+  },
+  "animations": true,
+  "plugins": [
+    {
+      "package": "./extensions/rainbow-v2",
+      "options": {
+        "palette": "barca",
+        "scope": "accents",
+        "enabled": true,
+        "fg": true,
+        "bg": false,
+        "speed": 0.004,
+        "turns": 2,
+        "glow": 0
+      }
+    },
+    "./extensions/barca-v2"
+  ]
+}

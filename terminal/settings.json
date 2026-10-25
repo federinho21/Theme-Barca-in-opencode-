@@ -1,0 +1,73 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "defaultProfile": "{85c4cf59-f328-4c3f-b15f-cd0bba7aafcb}",
+    "initialCols": 130,
+    "initialRows": 38,
+    "profiles": {
+        "defaults": {
+            "colorScheme": "Barca Night",
+            "font": {
+                "face": "Cascadia Mono",
+                "size": 11
+            },
+            "padding": "12"
+        },
+        "list": [
+            {
+                "name": "OpenCode Barca",
+                "guid": "{85c4cf59-f328-4c3f-b15f-cd0bba7aafcb}",
+                "commandline": "cmd.exe /k %USERPROFILE%\\.config\\opencode\\extensions\\barca-v2\\launch-opencode.cmd",
+                "startingDirectory": "%USERPROFILE%",
+                "icon": "%USERPROFILE%\\.config\\opencode\\extensions\\barca-v2\\assets\\barca-crest.png",
+                "background": "#080F20",
+                "backgroundImage": "%USERPROFILE%\\.config\\opencode\\extensions\\barca-v2\\assets\\barca-wallpaper.png",
+                "backgroundImageAlignment": "center",
+                "backgroundImageOpacity": 0.35,
+                "backgroundImageStretchMode": "uniformToFill",
+                "opacity": 65,
+                "useAcrylic": true,
+                "tabColor": "#86224E",
+                "tabTitle": "OpenCode | Barça"
+            },
+            {
+                "name": "PowerShell",
+                "guid": "{5e75b21a-07b6-4c75-97e8-ae6f643cdb48}",
+                "commandline": "powershell.exe -NoLogo",
+                "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "name": "Simbolo del sistema",
+                "guid": "{8c24fc25-f043-4e9d-9a53-40ec7e8e338d}",
+                "commandline": "cmd.exe",
+                "startingDirectory": "%USERPROFILE%"
+            }
+        ]
+    },
+    "schemes": [
+        {
+            "name": "Barca Night",
+            "background": "#080F20",
+            "foreground": "#E8EDF7",
+            "cursorColor": "#F3CB67",
+            "selectionBackground": "#334A70",
+            "black": "#080F20",
+            "red": "#CF467C",
+            "green": "#5AAC7E",
+            "yellow": "#CCA239",
+            "blue": "#3975BD",
+            "purple": "#9770C0",
+            "cyan": "#53AAC7",
+            "white": "#C7D2E7",
+            "brightBlack": "#7889AC",
+            "brightRed": "#F698B8",
+            "brightGreen": "#9CDBB5",
+            "brightYellow": "#F3CB67",
+            "brightBlue": "#A9C9FF",
+            "brightPurple": "#CCB2ED",
+            "brightCyan": "#9CDAED",
+            "brightWhite": "#E8EDF7"
+        }
+    ],
+    "theme": "dark"
+}

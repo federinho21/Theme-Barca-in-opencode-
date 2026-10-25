@@ -1,0 +1,9 @@
+{
+  "name": "oc-plugin-rainbow-local-v2",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": { "./tui": "./tui.ts" },
+  "engines": { "opencode": ">=2.1.4" },
+  "scripts": { "test": "node --test rainbow.test.ts" }
+}
